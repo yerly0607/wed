@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.9;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background-color: rgb(59, 89, 152);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.perfil-container .foto img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.descripcion {
+    flex: 1;
+    min-width: 250px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #0055aa;
+    border-radius: 5px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto a {
+    color: #003366;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+iframe, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+
+.hs{
+    background-color: #f4f4f4;
+    
+
+
+}
+
+
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#galeria div {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#galeria img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+#galeria figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+
